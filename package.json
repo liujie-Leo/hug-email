@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve":"node ./index.js",
-    "start": "pm2 start ./index.js --name server --watch",
-    "restart": "pm2 restart server",
-    "stop": "pm2 stop server"
+    "start": "pm2 start ./index.js --name email --watch",
+    "restart": "pm2 restart email",
+    "stop": "pm2 stop email"
   },
   "keywords": [],
   "author": "",
